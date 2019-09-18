@@ -1,4 +1,4 @@
-package com.example.x_plugin_example
+package com.example.example_plugin_example
 
 import android.os.Bundle
 

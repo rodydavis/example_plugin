@@ -1,9 +1,9 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:x_plugin/x_plugin.dart';
+import 'package:example_plugin/example_plugin.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('x_plugin');
+  const MethodChannel channel = MethodChannel('example_plugin');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 
@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await XPlugin.platformVersion, '42');
+    expect(await ExamplePlugin.platformVersion, '42');
   });
 }

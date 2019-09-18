@@ -1,0 +1,22 @@
+PODS:
+  - example_plugin (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - example_plugin (from `.symlinks/plugins/example_plugin/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+
+EXTERNAL SOURCES:
+  example_plugin:
+    :path: ".symlinks/plugins/example_plugin/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+
+SPEC CHECKSUMS:
+  example_plugin: 2657c243bd5705c00e0784a2e56214c06a5375ef
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: 10ae9c18d12c9ffc2275c9a159a3b1e281990db0
+
+COCOAPODS: 1.7.2

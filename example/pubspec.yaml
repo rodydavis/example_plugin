@@ -1,5 +1,5 @@
-name: x_plugin_example
-description: Demonstrates how to use the x_plugin plugin.
+name: example
+description: Demonstrates how to use the example_plugin plugin.
 publish_to: 'none'
 
 environment:
@@ -17,7 +17,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  x_plugin:
+  example_plugin:
     path: ../
 
 # For information on the generic Dart part of this file, see the

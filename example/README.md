@@ -1,6 +1,6 @@
-# x_plugin_example
+# example_plugin_example
 
-Demonstrates how to use the x_plugin plugin.
+Demonstrates how to use the example_plugin plugin.
 
 ## Getting Started
 
