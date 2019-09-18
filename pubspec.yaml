@@ -30,5 +30,3 @@ flutter:
       web:
         pluginClass: ExamplePlugin
         fileName: example_plugin_web.dart
-      macos:
-        pluginClass: ExamplePlugin
