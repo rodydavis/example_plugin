@@ -16,7 +16,7 @@ class ExamplePlugin {
     switch (call.method) {
       case 'getPlatformVersion':
         // final url = _getParam<String>(call, 'url');
-        return html.window.navigator.platform;
+        return html.window.navigator.appVersion;
       default:
         throw PlatformException(
             code: 'Unimplemented',
