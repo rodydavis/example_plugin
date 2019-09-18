@@ -5,13 +5,13 @@ PODS:
 
 DEPENDENCIES:
   - example_plugin (from `Flutter/ephemeral/.symlinks/plugins/example_plugin/macos`)
-  - FlutterMacOS (from `Flutter/ephemeral/.symlinks/flutter/darwin-x64`)
+  - FlutterMacOS (from `Flutter/ephemeral/.symlinks/flutter/darwin-x64-release`)
 
 EXTERNAL SOURCES:
   example_plugin:
     :path: Flutter/ephemeral/.symlinks/plugins/example_plugin/macos
   FlutterMacOS:
-    :path: Flutter/ephemeral/.symlinks/flutter/darwin-x64
+    :path: Flutter/ephemeral/.symlinks/flutter/darwin-x64-release
 
 SPEC CHECKSUMS:
   example_plugin: 821a6f37bb431bc5c0341e34cdc8df168233db89
