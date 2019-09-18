@@ -4,11 +4,11 @@ import 'package:flutter/services.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:universal_html/html.dart' as html;
 
-class XPlugin {
+class ExamplePlugin {
   static void registerWith(Registrar registrar) {
     final MethodChannel channel = MethodChannel(
-        'x_plugin', const StandardMethodCodec(), registrar.messenger);
-    final XPlugin instance = XPlugin();
+        'example_plugin', const StandardMethodCodec(), registrar.messenger);
+    final ExamplePlugin instance = ExamplePlugin();
     channel.setMethodCallHandler(instance.handleMethodCall);
   }
 
@@ -20,7 +20,7 @@ class XPlugin {
       default:
         throw PlatformException(
             code: 'Unimplemented',
-            details: "The x_plugin plugin for web doesn't implement "
+            details: "The example_plugin plugin for web doesn't implement "
                 "the method '${call.method}'");
     }
   }

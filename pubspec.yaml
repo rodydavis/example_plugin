@@ -1,4 +1,4 @@
-name: x_plugin
+name: example_plugin
 description: A new flutter plugin project.
 version: 0.0.1
 author:
@@ -23,12 +23,12 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.x_plugin
-        pluginClass: XPlugin
+        package: com.example.example_plugin
+        pluginClass: ExamplePlugin
       ios:
-        pluginClass: XPlugin
+        pluginClass: ExamplePlugin
       web:
-        pluginClass: XPlugin
-        fileName: x_plugin_web.dart
+        pluginClass: ExamplePlugin
+        fileName: example_plugin_web.dart
       macos:
-        pluginClass: XPlugin
+        pluginClass: ExamplePlugin

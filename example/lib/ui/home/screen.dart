@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:x_plugin/x_plugin.dart';
+import 'package:example_plugin/example_plugin.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({
@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
     String platformVersion;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      platformVersion = await XPlugin.platformVersion;
+      platformVersion = await ExamplePlugin.platformVersion;
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';
     }

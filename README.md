@@ -1,4 +1,4 @@
-# x_plugin
+# example_plugin
 
 A new flutter plugin project.
 
